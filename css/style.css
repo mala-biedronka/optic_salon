@@ -1,0 +1,17 @@
+
+
+/*Navigation Section*/
+.navbar {
+    padding: 0 10%;
+}
+
+/*Top Section*/
+#top-section {
+    background-color: #dfe5ee;
+    padding: 7% 0;
+}
+
+.container {
+    border: 1px solid saddlebrown;
+    text-align: center;
+}
