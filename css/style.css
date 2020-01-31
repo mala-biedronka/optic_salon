@@ -8,11 +8,10 @@
 /*Top Section*/
 #top-section {
     background-color: #dfe5ee;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .container {
-    border: 1px solid saddlebrown;
     text-align: center;
     position: relative;
 }
@@ -23,6 +22,11 @@
     top: 30%;
     left: 6%;
     text-align: left;
+}
+
+.top-img {
+    box-shadow: 0px 0px 31px 7px rgba(185,206,235,1);
+    border-radius: 1%;
 }
 
 /*About us Section*/
@@ -37,3 +41,7 @@
 /*Contacts Section*/
 
 /*Footer Section*/
+#footer {
+    text-align: center;
+    background-color: #dfe5ee;
+}
