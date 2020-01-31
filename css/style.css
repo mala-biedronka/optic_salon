@@ -8,10 +8,27 @@
 /*Top Section*/
 #top-section {
     background-color: #dfe5ee;
-    padding: 7% 0;
+    padding: 5% 0;
 }
 
 .container {
     border: 1px solid saddlebrown;
     text-align: center;
+    position: relative;
 }
+
+.container.title {
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    text-align: left;
+}
+
+/*About us Section*/
+
+#gallery {
+    text-align: center;
+    background-color: #dfe5ee;
+}
+
