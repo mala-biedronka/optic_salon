@@ -1,12 +1,29 @@
-
-
-/*Navigation Section*/
-.navbar {
-    padding: 2% 10% 0;
+body {
+    font-family: 'Cambay', sans-serif;
 }
 
+/*Navigation Section*/
 header {
     background-color: #dfe5ee;
+}
+.navbar {
+    padding: 3% 15% 1%;
+}
+.navbar-light .navbar-brand {
+    color: #87a8d0;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.navbar-light .navbar-brand:hover {
+    color: #87a8d0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #87a8d0;
+    font-size: 1.2rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #574f7d;
 }
 
 /*Top Section*/
@@ -14,7 +31,6 @@ header {
     background-color: #dfe5ee;
     padding: 3% 0;
 }
-
 .title {
     margin: 0 auto;
     width: 900px;
@@ -22,44 +38,81 @@ header {
     background-image: url("../images/two-eyewear.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 1%;
+    border-radius: 2%;
     box-shadow: 0px 0px 31px 7px rgba(185,206,235,1);
 }
-
 .title-text {
     width: 10%;
     padding: 7% 0 0 65%;
     font-size: 3.5rem;
     color: #574f7d;
 }
-/*About us Section*/
-#about-us {
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 2;
-}
 
+/*About us Section*/
+.about-us-info{
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: justify;
+}
+.heading-about-us {
+    text-align: center;
+    color: #87a8d0;
+    font-weight: 700;
+}
 hr {
     width: 80%;
     margin: 80px auto;
     border-style: none;
-    border-bottom: 3px solid #f4f3f3;
-}
-
-#gallery {
-    text-align: center;
-    background-color: #dfe5ee;
+    border-bottom: 2px solid #e1e6ec;
+    border-radius: 5%;
 }
 
 /*Gallery Section*/
-.carousel-inner {
-    padding: 0 10%;
+#gallery {
+    text-align: center;
+    /*background-color: #dfe5ee;*/
+    /*box-shadow: 0px 0px 20px 2px rgba(185,206,235,1);*/
 }
-
+.heading-gallery  {
+    color: #574f7d;
+    font-weight: 700;
+    padding: 1% 0 0 0;
+}
 /*Contacts Section*/
+#contacts {
+    text-align: center;
+    padding: 7% 0;
 
+}
+.card {
+    padding: 0 0 20%;
+    border-style: none;
+    border-left: 2px solid #e1e6ec;
+}
+.card-text {
+    text-align: left;
+    font-size: 1.5rem;
+}
+.card-title {
+    color: #87a8d0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.heading-contacts {
+    color: #87a8d0;
+    font-weight: 700;
+}
 /*Footer Section*/
 #footer {
     text-align: center;
     background-color: #dfe5ee;
+    padding: 3% 0;
+    line-height: 3;
+    font-size: 1.2rem;
+}
+.copyright {
+    margin-bottom: 0;
+}
+.foot-icon {
+    margin: 0 1%;
 }
