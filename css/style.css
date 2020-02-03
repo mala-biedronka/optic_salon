@@ -7,13 +7,15 @@ header {
     background-color: #dfe5ee;
 }
 .navbar {
-    padding: 3% 15% 1%;
+    padding: 3% 13.5% 1%;
 }
 .navbar-light .navbar-brand {
     color: #87a8d0;
     font-size: 1.5rem;
     font-weight: bold;
-
+}
+.nav-item {
+    margin-left: 30px;
 }
 .navbar-light .navbar-brand:hover {
     color: #87a8d0;
@@ -32,10 +34,24 @@ header {
     background-color: #dfe5ee;
 }
 .img-fluid {
-    box-shadow: 0 0 31px 7px rgba(185,206,235,1);
-    padding: 0;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 0 0 20px 2px rgba(185,206,235,1);
 }
 
+.top-title {
+    font-size: 5rem;
+    color: #574f7d;
+    padding-top: 6%;
+    font-weight: bold;
+}
+
+@media (max-width: 1199px) {
+    .top-title {
+        text-align: center;
+        font-size: 4.7rem;
+    }
+}
 /*About us Section*/
 #about-us {
     padding: 0 20%;
