@@ -112,7 +112,6 @@ hr {
     border-style: none;
     border-left: 2px solid #e1e6ec;
 }
-
 .card-contact {
     margin: 3% 0;
 }
@@ -139,7 +138,12 @@ hr {
 }
 .copyright {
     margin-bottom: 0;
+    color: #574f7d;
 }
-.foot-icon {
+.foot-link {
     margin: 0 1%;
+    color: #574f7d;
+}
+.foot-link:hover {
+    color: #87a8d0;
 }
