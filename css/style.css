@@ -85,12 +85,9 @@ hr {
 }
 
 /*Gallery Section*/
-#gallery {
-
-}
 .gallery-wrapper {
     background-color: #dfe5ee;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 .carousel-inner{
     box-shadow: 0 0 20px 2px rgba(185,206,235,1);
@@ -107,9 +104,11 @@ hr {
 .carousel-control-next {
     right: -12%;
 }
-#carouselExampleIndicators {
-    width: 80%;
-    margin: 0 auto;
+@media (max-width: 1290px) {
+    #gallery-carousel {
+        width: 89%;
+        margin: 0 auto;
+    }
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
