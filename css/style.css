@@ -33,6 +33,7 @@ header {
     padding: 2% 0 4%;
     background-color: #dfe5ee;
 }
+
 .img-fluid {
     width: 100%;
     border-radius: 1%;
@@ -105,12 +106,15 @@ hr {
 #contacts {
     text-align: center;
     padding: 7% 0;
-
 }
 .card {
-    padding: 0 0 20%;
+    padding: 0 0 5%;
     border-style: none;
     border-left: 2px solid #e1e6ec;
+}
+
+.card-contact {
+    margin: 3% 0;
 }
 .card-text {
     text-align: left;
