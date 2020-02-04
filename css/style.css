@@ -33,7 +33,7 @@ header {
     padding: 2% 0 8%;
     background-color: #dfe5ee;
 }
-.img-fluid {
+.top-img {
     width: 100%;
     border-radius: 1%;
     box-shadow: 0 0 20px 2px rgba(185,206,235,1);
@@ -60,7 +60,6 @@ header {
 #about-us {
     padding: 0 20%;
 }
-
 @media (max-width: 1000px) {
     #about-us {
         padding: 0 10%;
@@ -76,7 +75,7 @@ header {
     color: #87a8d0;
     font-weight: 700;
 }
-hr {
+.about-us-line {
     width: 80%;
     margin: 80px auto;
     border-style: none;
@@ -85,7 +84,7 @@ hr {
 }
 
 /*Gallery Section*/
-.gallery-wrapper {
+#gallery {
     background-color: #dfe5ee;
     padding: 3% 0;
 }
@@ -96,7 +95,6 @@ hr {
     text-align: center;
     color: #574f7d;
     font-weight: 700;
-    padding: 1% 0 0 0;
 }
 .carousel-control-prev {
     left: -12%;
@@ -110,17 +108,11 @@ hr {
         margin: 0 auto;
     }
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 25%;
-    height: 25%;
-}
 .carousel-left-arrow,
 .carousel-right-arrow {
     color: #574f7d;
     font-size: 3rem;
 }
-
 @media (max-width: 1000px) {
     .carousel-left-arrow,
     .carousel-right-arrow {
@@ -128,14 +120,12 @@ hr {
         font-size: 2.5rem;
     }
 }
-
 @media (max-width: 767px) {
     .carousel-left-arrow,
     .carousel-right-arrow {
         color: #574f7d;
         font-size: 2rem;
     }
-
     .carousel-control-prev {
         left: -13%;
     }
@@ -161,7 +151,6 @@ hr {
     text-align: left;
     font-size: 1.5rem;
 }
-
 @media (max-width: 767px) {
     .card-text {
         font-size: 1.3rem;
@@ -176,6 +165,7 @@ hr {
     color: #87a8d0;
     font-weight: 700;
 }
+
 /*Footer Section*/
 #footer {
     text-align: center;
