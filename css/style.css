@@ -11,7 +11,7 @@ header {
 }
 .navbar-light .navbar-brand {
     color: #87a8d0;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 .nav-item {
@@ -22,7 +22,7 @@ header {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #87a8d0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #574f7d;
@@ -30,32 +30,41 @@ header {
 
 /*Top Section*/
 #top-section {
-    padding: 2% 0 4%;
+    padding: 2% 0 8%;
     background-color: #dfe5ee;
 }
-
 .img-fluid {
     width: 100%;
     border-radius: 1%;
     box-shadow: 0 0 20px 2px rgba(185,206,235,1);
 }
-
 .top-title {
     font-size: 5rem;
     color: #574f7d;
     padding-top: 6%;
     font-weight: bold;
 }
-
 @media (max-width: 1199px) {
     .top-title {
-        text-align: center;
-        font-size: 4.7rem;
+        /*text-align: center;*/
+        font-size: 4rem;
     }
 }
+@media (max-width: 991px) {
+    .top-title {
+        text-align: center;
+    }
+}
+
 /*About us Section*/
 #about-us {
     padding: 0 20%;
+}
+
+@media (max-width: 1000px) {
+    #about-us {
+        padding: 0 10%;
+    }
 }
 .about-us-info{
     font-size: 1.3rem;
@@ -77,7 +86,13 @@ hr {
 
 /*Gallery Section*/
 #gallery {
+
+}
+.gallery-wrapper {
     background-color: #dfe5ee;
+    padding: 5% 0;
+}
+.carousel-inner{
     box-shadow: 0 0 20px 2px rgba(185,206,235,1);
 }
 .heading-gallery  {
@@ -87,10 +102,10 @@ hr {
     padding: 1% 0 0 0;
 }
 .carousel-control-prev {
-    left: -20%;
+    left: -12%;
 }
 .carousel-control-next {
-    right: -20%;
+    right: -12%;
 }
 #carouselExampleIndicators {
     width: 80%;
@@ -100,6 +115,34 @@ hr {
 .carousel-control-next-icon {
     width: 25%;
     height: 25%;
+}
+.carousel-left-arrow,
+.carousel-right-arrow {
+    color: #574f7d;
+    font-size: 3rem;
+}
+
+@media (max-width: 1000px) {
+    .carousel-left-arrow,
+    .carousel-right-arrow {
+        color: #574f7d;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-left-arrow,
+    .carousel-right-arrow {
+        color: #574f7d;
+        font-size: 2rem;
+    }
+
+    .carousel-control-prev {
+        left: -13%;
+    }
+    .carousel-control-next {
+        right: -13%;
+    }
 }
 
 /*Contacts Section*/
@@ -118,6 +161,12 @@ hr {
 .card-text {
     text-align: left;
     font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .card-text {
+        font-size: 1.3rem;
+    }
 }
 .card-title {
     color: #87a8d0;
