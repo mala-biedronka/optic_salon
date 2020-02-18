@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Cambay', sans-serif;
     text-align: center;
@@ -14,7 +19,7 @@ p {
     background-color: #dfe5ee;
 }
 
-/*Navigation Section*/
+/*Header Section*/
 .navbar {
     padding-top: 3%;
 }
@@ -59,26 +64,10 @@ button.navbar-toggler:focus {
     font-weight: bold;
     text-align: left;
 }
-@media (max-width: 1199px) {
-    .top-title {
-        font-size: 4rem;
-    }
-}
-@media (max-width: 991px) {
-    .top-title {
-        text-align: center;
-        padding-top: 6%;
-    }
-}
 
 /*About us Section*/
 #about-us {
     padding: 0 20%;
-}
-@media (max-width: 1000px) {
-    #about-us {
-        padding: 0 10%;
-    }
 }
 .about-us-info{
     font-size: 1.3rem;
@@ -112,36 +101,10 @@ button.navbar-toggler:focus {
 .carousel-control-next {
     right: -12%;
 }
-@media (max-width: 1290px) {
-    #gallery-carousel {
-        width: 89%;
-        margin: 0 auto;
-    }
-}
 .carousel-left-arrow,
 .carousel-right-arrow {
     color: #574f7d;
     font-size: 3rem;
-}
-@media (max-width: 1000px) {
-    .carousel-left-arrow,
-    .carousel-right-arrow {
-        color: #574f7d;
-        font-size: 2.5rem;
-    }
-}
-@media (max-width: 767px) {
-    .carousel-left-arrow,
-    .carousel-right-arrow {
-        color: #574f7d;
-        font-size: 2rem;
-    }
-    .carousel-control-prev {
-        left: -13%;
-    }
-    .carousel-control-next {
-        right: -13%;
-    }
 }
 
 /*Contacts Section*/
@@ -159,17 +122,6 @@ button.navbar-toggler:focus {
 .card-text {
     text-align: left;
     font-size: 1.5rem;
-}
-@media (max-width: 767px) {
-    .card-text {
-        font-size: 1.3rem;
-    }
-    .card-contact {
-        margin: 3% 0 0 13%;
-    }
-    .card-title {
-        text-align: left;
-    }
 }
 .card-title {
     color: #87a8d0;
@@ -195,4 +147,67 @@ button.navbar-toggler:focus {
 }
 .foot-link:hover {
     color: #87a8d0;
+}
+
+/*Responsive Design*/
+
+/*Responsive Top Section*/
+@media (max-width: 1199px) {
+    .top-title {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 991px) {
+    .top-title {
+        text-align: center;
+        padding-top: 6%;
+    }
+}
+
+/*Responsive About us Section*/
+@media (max-width: 1000px) {
+    #about-us {
+        padding: 0 10%;
+    }
+}
+
+/*Responsive Gallery Section*/
+@media (max-width: 1290px) {
+    #gallery-carousel {
+        width: 89%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1000px) {
+    .carousel-left-arrow,
+    .carousel-right-arrow {
+        color: #574f7d;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .carousel-left-arrow,
+    .carousel-right-arrow {
+        color: #574f7d;
+        font-size: 2rem;
+    }
+    .carousel-control-prev {
+        left: -13%;
+    }
+    .carousel-control-next {
+        right: -13%;
+    }
+}
+
+/*Responsive Contacts Section*/
+@media (max-width: 767px) {
+    .card-text {
+        font-size: 1.3rem;
+    }
+    .card-contact {
+        margin: 3% 0 0 13%;
+    }
+    .card-title {
+        text-align: left;
+    }
 }
